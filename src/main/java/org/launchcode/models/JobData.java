@@ -100,8 +100,6 @@ public class JobData {
         // load data, if not already loaded
         loadData();
 
-        System.out.println("Inside the findByValue ->'"+value+"'");
-
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
 
         for (HashMap<String, String> row : allJobs) {
